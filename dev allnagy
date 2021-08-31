@@ -1,0 +1,26 @@
+<html>
+<title>A Webpage About Books</title>
+<body>
+<h1>Books You Should Read</h1>
+    <h2>See the table below for some great books to read:</h2>
+
+<!--Start of table for books-->
+    <table>
+    <!--th tags indicate Columb headings-->
+        <tr>
+          <th>Title</th>
+          <th>Author(s)</th>
+          <th>Year Published</th>
+          <th>Publisher</th>
+          <th>Page Count</th>
+          <th>MSRP</th>
+        </tr>
+    <!--Each set of tr tags indicates a row with book information-->   
+
+      </table>
+
+<h3>Use this form to add a book to the list:</h3>
+
+</body>
+
+</html>
