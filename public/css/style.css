@@ -1,0 +1,54 @@
+body {
+    background-color: #EEEEEE ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+h1 {
+    background-color: #95200B;
+    color: white;
+}
+
+nav {
+    background-color: D02C0F;
+}
+
+form {
+    background-color:#95200B ;
+    color: white;
+    border-style: groove;
+    border-color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+
+}
+
+footer {
+    background-color: #95200B ;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+img {
+    box-shadow: 3px 3px 6px grey;
+  }
+
+a:link {
+    color: black;
+}
+
+div.solid {
+    border-style: solid;
+    border-color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
