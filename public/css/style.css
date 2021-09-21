@@ -1,0 +1,94 @@
+body {
+    background-color: #EEEEEE ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+h1 {
+    background-color: #95200B;
+    color: white;
+}
+
+nav {
+    background-color: D02C0F;
+}
+
+form {
+    background-color:#95200B ;
+    color: white;
+    border-style: groove;
+    border-color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+
+}
+
+footer {
+    background-color: #95200B ;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+img {
+    box-shadow: 3px 3px 6px grey;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+  }
+
+a:link {
+    color: black;
+}
+
+div.solid {
+    border-style: solid;
+    border-color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #iuRed {
+      color:#95200B;
+  }
+
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: #404040 transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}
