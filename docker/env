@@ -1,0 +1,4 @@
+MYSQL_DATABASE=dshomework
+MYSQL_HOST=dshomework.csudng4fwh7c.us-east-2.rds.amazonaws.com
+MYSQL_USER=allnagy
+MYSQL_PASSWORD=kelleyclass
