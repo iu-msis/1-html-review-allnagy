@@ -59,10 +59,28 @@
           taught by Professor Gregory. After graduation I hope to start a career in consulting.</p>
           </div>
 
+      <div class="col-3">
+        <img src="./img/user.jpg" height="200" width="200">
+        <p>Image source: <a href="https://www.randomuser.me>randomuser.me">randomuser.me</a></p>
+      </div>
+
+
+
  
   
 
       <div id="offerApp" class="col col-4">
+
+      <form v-on:submit.prevent="fetchUserData">
+        <button type="submit">Reload</button>
+      </form>
+        <h5><b>Quick Facts</b></h5>
+        <p> <b>Name:</b> {{ person.name.first }} {{ person.name.last }}</p>
+        <p> <b>Birthday:</b> {{ prettyBirthday }}</p>
+        <p> <b>Age:</b> 29 </p>
+        <p> <b>Email:</b> <a v-bind:href="'mailto:'+person.email">{{ person.email }}</a></p>
+
+
         <h5>Quick Facts</h5>
         
       <p> <b>Name:</b> {{ person.name.first }} {{ person.name.last }}</p>
@@ -79,6 +97,7 @@
         <div class="col col-4">
           <h5>This Website</h5>
           <p>This website is a collection of my homeworks for our Data and Systems class.</p>
+
         </div>
 
       </div>
@@ -142,4 +161,6 @@
 <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
  
 <script src="js/index.js"></script>
+
 </html>
+
