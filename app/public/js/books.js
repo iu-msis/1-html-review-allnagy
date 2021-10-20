@@ -13,13 +13,10 @@ const NewApp = {
             .then( (responseJson) => {
                 console.log(responseJson);
                 this.books = responseJson;
-                console.log('hello you');
             })
             .catch( (err) => {
                 console.error(err);
-                console.log('hello you');
             })
-        }
     },
     postNewBook(evt) {
         fetch('api/books/create.php', {
@@ -31,19 +28,21 @@ const NewApp = {
           })
           .then( response => response.json() )
           .then( json => {
-            console.log("Returned from post:", json);
+              console.log("Returned from post:", json);
             // TODO: test a result was returned!
             this.books = json;
             
             // reset the form
             this.bookForm = {};
-            console.log('hello you');
           });
-      }
+        }
+    },
     created() {
         this.fetchBookData();
+
     }
   
   }
+
   
   Vue.createApp(NewApp).mount('#bookApp');
